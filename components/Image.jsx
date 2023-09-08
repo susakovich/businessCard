@@ -1,9 +1,5 @@
 export default function RenderImg() {
   return (
-    <img
-      className="profile-pic"
-      src="../src/assets/profile.png"
-      alt="My profile picture"
-    />
+    <img className="profile-pic" src="profile.png" alt="My profile picture" />
   );
 }
