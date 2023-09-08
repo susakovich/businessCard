@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #23252c;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  background-color: #1a1b21;
+}
+
+/* Info, name, title, website */
+.info-container {
+  padding: 0 35px;
+}
+
+.profile-pic {
+  width: 100%;
+  border-top-left-radius: 0.625em;
+  border-top-right-radius: 0.625em;
+  transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+.profile-pic:hover {
+  opacity: 0.5;
+}
+
+.info-wrapper {
+  text-align: center;
+}
+.info-wrapper h3 {
+  font-size: 1.5rem;
+  margin-top: 1.3em;
+  margin-bottom: 0.2em;
+}
+.info-wrapper p {
+  color: #61dbfb;
+  margin-bottom: 0.2em;
+  font-size: 0.8rem;
+}
+
+.info-wrapper a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 0.625rem;
+  transition: all 0.5s ease-in-out;
+}
+.info-wrapper a:hover {
+  text-decoration: underline;
+  color: #61dbfb;
+}
+/* Buttons */
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  gap: 1em;
+}
+.buttons-wrapper a {
+  padding: 0.75em 1.5em;
+  border-radius: 0.375em;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+}
+.email-btn {
+  background-color: #fff;
+  font-weight: 500;
+  width: 100%;
+  color: #374151;
+  transition: all 0.5s ease-in-out;
+}
+.email-btn:hover {
+  background-color: #374151;
+  color: #fff;
+}
+.linkedIn-btn {
+  background-color: #5093e2;
+  color: #fff;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.linkedIn-btn:hover {
+  background-color: #1e1e1e;
+  color: #5093e2;
+}
+
+/* About */
+.about-wrapper {
+  margin-bottom: 2rem;
+}
+.about-wrapper h4 {
+  font-size: 1.2rem;
+}
+.about-wrapper p {
+  line-height: 150%;
+  font-size: 0.7rem;
+  color: #dcdcdc;
+  margin-top: 0.5em;
+}
+.about-wrapper span {
+  color: #61dbfb;
+  font-weight: 700;
+}
+
+/* Interests */
+.interests-wrapper h4 {
+  font-size: 1.2rem;
+}
+.interests-wrapper p {
+  line-height: 150%;
+  font-size: 0.68rem;
+  color: #dcdcdc;
+  margin-top: 0.5em;
+}
+
+/* Footer */
+.media-wrapper {
+  margin-top: 2em;
+  border-bottom-left-radius: 0.625em;
+  border-bottom-right-radius: 0.625em;
+  background-color: #0c0c0c;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 4px 2px -2px #61dcfb76;
+}
+.media-wrapper img {
+  transition: transform 3s ease;
+}
+.media-wrapper img:hover {
+  transform: rotate(360deg);
+  transition: transform 3s ease;
+}
